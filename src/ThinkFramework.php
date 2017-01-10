@@ -13,7 +13,7 @@ class ThinkFramework extends LibraryInstaller
      */
     public function getInstallPath(PackageInterface $package)
     {
-        if ('topthink/framework' !== $package->getPrettyName()) {
+        if ('scolib/thinkphp' !== $package->getPrettyName()) {
             throw new \InvalidArgumentException('Unable to install this library!');
         }
 
